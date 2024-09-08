@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image{
+    height: 80px;
+    width: 250px;
+    
+}
+.list,ul{
+    list-style: none;
+    
+}
+.list,li{
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+}
+.request,button{
+    border: 1px solid black;
+    width: 150px;
+    height:50px;
+    border-radius: 10px;
+}
+.list,li,a{
+    text-decoration: none;
+    color:black;
+}
+@media (max-width:790px) {
+    li{display: NONE;}
+    .nav{ height: auto;
+    }
+    
+}
+.container{
+
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    
+}
+.container1{
+    
+    width: 40%;
+    height: 500px;
+}
+
+.container2{
+    
+    width: 60%;
+    height: 500px;
+}
+.container11{
+
+    width: 60%;
+    height: 200px;
+    font-size: 20px;
+    
+}
+.container12{
+    
+    width: 60%;
+    height: 200px;
+    font-size: 20px;
+    
+
+}
+.consultation>button{
+background-color: black;
+color:white
+}
+.secondcontainer{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    margin-top: 60px;
+
+}
+.services{
+    width: 80%;
+    height: 60px;
+    border: 1px solid tansperent;
+    margin: auto;
+    margin-top: 150px;
+    display: flex ;
+    gap: 80px;
+    
+}
+.services>.servicebutton>button{
+    font-size: 30px;
+    height: 60px;
+    background-color: greenyellow;
+}
+.servicepara{
+    
+    width: 27%;
+}
+.learn{
+width: 100%;
+height: 310px;
+border: 1px solid transparent;
+display :flex;
+gap:50px;
+justify-content:center;
+margin-top: 100px;
+}
+.learn1{
+    width: 30%;
+    height: 310px;
+    border:1px solid black;
+    border-radius: 50px;
+    }
+#learn2{
+}
+#learn3{
+    background-color: greenyellow;
+}
